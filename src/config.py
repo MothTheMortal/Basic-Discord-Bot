@@ -1,16 +1,7 @@
-# # CONSTANTS
-# VERIFICATION_MESSAGE = "VERIFY"
-# VERIFY_ROLE_ID = 1212788494532087938
-# VERIFY_CHANNEL_ID = 1212789618764681216
-# TICKET_CATEGORY_NAME = "TICKET"  # Default = "TICKET"
-# GUILD_ID = 1209826762490646619  # Your Discord Server ID
-# TICKET_INACTIVITY_LIMIT = 30  # How many minutes till an inactive ticket channel gets a reminder to close
-
-
 # CONSTANTS
-VERIFICATION_MESSAGE = "VERIFY"
+VERIFICATION_MESSAGE = "VERIFY"  # The message users will be required to type to be verified
 VERIFY_ROLE_ID = 1212815124688015430
 VERIFY_CHANNEL_ID = 1212815268192067635
 TICKET_CATEGORY_NAME = "TICKET"  # Default = "TICKET"
 GUILD_ID = 1212814784794464327  # Your Discord Server ID
-TICKET_INACTIVITY_LIMIT = 30  # How many minutes till an inactive ticket channel gets a reminder to close
+STAFF_ROLE_ID = 1212815790475321424  # Role ID for Staff, for mentioning them during Tickets

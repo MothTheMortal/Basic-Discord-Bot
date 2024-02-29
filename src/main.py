@@ -111,7 +111,7 @@ async def createTicket(ctx: discord.Interaction, reason: str):
     await channel.set_permissions(ctx.user, overwrite=overwrite)
 
     embed = discord.Embed(title=f"{ctx.user.name} created a Ticket!", description=f"**Reason**: {reason}")
-    await channel.send(embed=embed)
+    await channel.send(content=f"{f'<@&{config.STAFF_ROLE_ID}>' if config.STAFF_ROLE_ID else ''}", embed=embed)
 
 
 @bot.tree.command(name="close-ticket", description="Command used to close an active ticket.")
