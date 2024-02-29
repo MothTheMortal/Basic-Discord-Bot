@@ -1,2 +1,5 @@
-A basic discord bot commissioned to me
+A basic discord bot
+- Server-specific Bot
+- Basic Ticket System
+- Basic Verification System
 
