@@ -1,7 +1,7 @@
 # CONSTANTS
 VERIFICATION_MESSAGE = "VERIFY"  # The message users will be required to type to be verified
-VERIFY_ROLE_ID = 1212815124688015430
-VERIFY_CHANNEL_ID = 1212815268192067635
+VERIFY_ROLE_ID = 0
+VERIFY_CHANNEL_ID = 0
 TICKET_CATEGORY_NAME = "TICKET"  # Default = "TICKET"
-GUILD_ID = 1212814784794464327  # Your Discord Server ID
-STAFF_ROLE_ID = 1212815790475321424  # Role ID for Staff, for mentioning them during Tickets
+GUILD_ID = 0  # Your Discord Server ID
+STAFF_ROLE_ID = 0  # Role ID for Staff, for mentioning them during Tickets
